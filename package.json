@@ -1,0 +1,22 @@
+{
+  "name": "promise-jsonp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dnxbf321@github.com/dnxbf321/promise-jsonp.git"
+  },
+  "author": "Jason Deng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dnxbf321/promise-jsonp/issues"
+  },
+  "homepage": "https://github.com/dnxbf321/promise-jsonp#readme"
+}
