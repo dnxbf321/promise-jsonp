@@ -24,7 +24,8 @@
           if (typeof val !== 'string') {
             val = JSON.stringify(val)
           }
-          query.push(key + '=' + data[key])
+          val = encodeURIComponent(val)
+          query.push(key + '=' + val)
         }
       }
       return query
@@ -40,7 +41,7 @@
       }
       var jsonpScript = document.createElement('script')
       jsonpScript.onerror = function() {
-      	console.error(url + ' can not successfully load')
+        console.error(url + ' can not successfully load')
         reject()
       }
       jsonpScript.setAttribute('src', url)
